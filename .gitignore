@@ -1,0 +1,20 @@
+# Local terraform state
+*.tfstate
+*.tfstate.*
+
+# Backup files created by Terraform
+*.tfstate.backup
+
+# Crash log files from Terraform
+crash.log
+
+# Ignore Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Directory created by Terraform for caching modules
+.terraform/
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
